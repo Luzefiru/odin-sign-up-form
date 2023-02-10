@@ -91,6 +91,7 @@ form {
   padding-top: 1rem;
   padding-bottom: 1rem;
   box-shadow: 0px 0px 20px hsl(0, 0%, 80%);
+  clip-path: inset(-15px 0px -15px 0px); /* clip horizontal box shadow */
 }
 
 .sign-up__content__form__call-to-action {
@@ -172,7 +173,7 @@ input:invalid {
   padding: 0.8rem 3rem;
   border-radius: 8px;
 
-  box-shadow: 0px 0px 10px hsl(0, 0%, 70%);
+  box-shadow: -0px 0px 10px hsl(0, 0%, 70%);
   border: none;
 }
 
