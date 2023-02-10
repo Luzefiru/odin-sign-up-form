@@ -89,7 +89,7 @@ form {
 .sign-up__content__form {
   background-color: hsl(0, 0%, 100%);
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .sign-up__content__form__call-to-action {
@@ -130,6 +130,17 @@ input[isvalid="false"] {
   outline: hsl(0, 0%, 100%);
   border: 2px solid #d06969;
   border-radius: 4px;
+}
+
+.sign-up__content__form__fields__password-warning {
+  font-size: 12px;
+  font-weight: 600;
+  color: #cc5959;
+  position: relative;
+  bottom: 12px;
+
+  display: none; /* default, turns to 'block' when JavaScript detects mismatch password input */
+  height: 0px; /* height 0 to not affect container height when script.js sets display: none */
 }
 
 .sign-up__content__headline,
