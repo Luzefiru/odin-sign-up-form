@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
   /* CSS reset */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img, picture, video, canvas, svg {
@@ -50,8 +54,13 @@ body {
 
 .sign-up__media__attribution {
   align-self: flex-end;
-  color: white;
+  color: hsl(0, 0%, 95%);
   margin-bottom: 1rem;
 
   font-size: 12px;
+}
+
+.sign-up__media__attribution :visited,
+.sign-up__media__attribution :link {
+  color: hsl(0, 0%, 95%);
 }
