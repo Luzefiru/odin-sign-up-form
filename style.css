@@ -20,12 +20,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: hsl(0, 0%, 5%);
 }
 
 .sign-up {
   display: flex;
-  height: 90%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
+
+  background-color: hsl(0, 0%, 100%);
+
+  border-radius: 20px;
 }
 
 .sign-up__media {
@@ -33,5 +39,19 @@ body {
   background-size: cover;
   background-position: center;
 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
   width: 45%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up__media__attribution {
+  align-self: flex-end;
+  color: white;
+  margin-bottom: 1rem;
+
+  font-size: 12px;
 }
