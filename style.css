@@ -33,7 +33,7 @@ body {
   height: 80%;
   width: 80%;
 
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 90%);
 
   border-radius: 20px;
 }
@@ -55,7 +55,7 @@ body {
 .sign-up__media__attribution {
   align-self: flex-end;
   color: hsl(0, 0%, 95%);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 
   font-size: 12px;
 }
@@ -63,4 +63,19 @@ body {
 .sign-up__media__attribution :visited,
 .sign-up__media__attribution :link {
   color: hsl(0, 0%, 95%);
+}
+
+
+
+.sign-up__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sign-up__content > * {
+  width: 100%;
+}
+
+.sign-up__content__form {
+  background-color: hsl(0, 0%, 100%);
 }
