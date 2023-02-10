@@ -88,6 +88,14 @@ body {
 
 .sign-up__content__form {
   background-color: hsl(0, 0%, 100%);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+}
+
+.sign-up__content__form__call-to-action {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .sign-up__content__headline,
