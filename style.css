@@ -11,14 +11,27 @@ img, picture, video, canvas, svg {
   max-width: 100%; 
 }
 
+html, body {
+  /* allow percentage-based units on viewport */
+  height: 100%;
+}
+
 body {
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up {
-  height: 1000px;
+  display: flex;
+  height: 90%;
+  width: 70%;
 }
 
 .sign-up__media {
   background-image: url(./res/media.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 45%;
 }
