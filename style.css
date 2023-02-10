@@ -10,3 +10,15 @@ img, picture, video, canvas, svg {
   display: block;
   max-width: 100%; 
 }
+
+body {
+  min-height: 100vh;
+}
+
+.sign-up {
+  height: 1000px;
+}
+
+.sign-up__media {
+  background-image: url(./res/media.jpg);
+}
