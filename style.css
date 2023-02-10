@@ -70,14 +70,14 @@ body {
   flex-wrap: wrap;
 }
 
-.sign-up__content > * {
+form {
   width: 100%;
 }
 
 .sign-up__content__headline {
   display: flex;
   align-items: flex-end;
-  padding-right: 10rem;
+  padding-right: 8rem;
   padding-bottom: 4rem;
 }
 
@@ -90,7 +90,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   padding-top: 1rem;
   padding-bottom: 2rem;
-  padding-right: 10rem;
+  padding-right: 8rem;
 }
 
 .sign-up__content__form__call-to-action {
