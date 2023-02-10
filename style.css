@@ -150,8 +150,8 @@ input:focus {
   font-size: 16px;
   font-weight: 600;
 
-  padding: 0.75rem 2.5rem;
-  border-radius: 4px;
+  padding: 0.8rem 3rem;
+  border-radius: 8px;
 
   box-shadow: 0px 0px 10px hsl(0, 0%, 70%);
   border: none;
