@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
 
 * {
   /* CSS reset */
@@ -78,4 +78,41 @@ body {
 
 .sign-up__content__form {
   background-color: hsl(0, 0%, 100%);
+}
+
+.sign-up__content__headline,
+.sign-up__content__buttons {
+  padding-left: 3rem;
+}
+
+.sign-up__content__buttons {
+  padding-top: 2rem;
+}
+
+.sign-up__content__buttons__log-in > a {
+  color: #9d581d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sign-up__content__buttons__create-account {
+  margin-bottom: 2rem;
+
+  background-color: #9d581d;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+
+  padding: 0.75rem 2.5rem;
+  border-radius: 4px;
+
+  box-shadow: 0px 0px 10px grey;
+}
+
+.sign-up__content__buttons__create-account:hover {
+  background-color: hsl(28, 69%, 50%);
+}
+
+.sign-up__content__buttons__create-account:active {
+  background-color: #9d581d;
 }
