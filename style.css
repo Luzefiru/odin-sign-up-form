@@ -30,10 +30,10 @@ body {
 
 .sign-up {
   display: flex;
-  height: 80%;
+  height: 90%;
   width: 80%;
 
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 93%);
 
   border-radius: 20px;
 }
@@ -46,7 +46,7 @@ body {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 
-  width: 45%;
+  width: 80%;
 
   display: flex;
   justify-content: center;
@@ -65,8 +65,6 @@ body {
   color: hsl(0, 0%, 95%);
 }
 
-
-
 .sign-up__content {
   display: flex;
   flex-wrap: wrap;
@@ -76,11 +74,24 @@ body {
   width: 100%;
 }
 
+.sign-up__content__headline {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 10rem;
+  padding-bottom: 4rem;
+}
+
+.sign-up__content__headline__text {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .sign-up__content__form {
   background-color: hsl(0, 0%, 100%);
 }
 
 .sign-up__content__headline,
+.sign-up__content__form,
 .sign-up__content__buttons {
   padding-left: 3rem;
 }
