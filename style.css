@@ -90,12 +90,31 @@ form {
   background-color: hsl(0, 0%, 100%);
   padding-top: 1rem;
   padding-bottom: 2rem;
-  padding-right: 8rem;
 }
 
 .sign-up__content__form__call-to-action {
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.sign-up__content__form__fields {
+  width: 31rem;
+}
+
+.sign-up__content__form__fields > label {
+  text-transform: uppercase;
+  position: absolute;
+
+  font-size: 10px;
+  font-weight: 700;
+  color:hsl(0, 0%, 20%)
+}
+
+.sign-up__content__form__fields > input {
+  width: 14rem;
+  height: 1.75rem;
+  margin: 1rem 1rem 1rem 0;
 }
 
 .sign-up__content__headline,
