@@ -121,9 +121,15 @@ form {
 input:focus {
   outline: hsl(0, 0%, 100%);
   border: 2px solid #5478dd;
-  border-radius: 2px;
+  border-radius: 4px;
 
   box-shadow: 0px 0px 10px hsl(0, 0%, 80%);
+}
+
+input[isvalid="false"] {
+  outline: hsl(0, 0%, 100%);
+  border: 2px solid #d06969;
+  border-radius: 4px;
 }
 
 .sign-up__content__headline,
